@@ -2,7 +2,7 @@
 用户指南 设置 NexT 主题很容易。只需遵循文档，就可快速创建您的个人网站！
 反馈 访问 Awesome NexT 列表，与其他用户分享插件和教程。 加入我们的 Gitter 聊天。 在几秒钟内添加或改进翻译。 在 GitHub Issues 中报告一个 &amp;#x1f41b;。 在 GitHub 上申请一个新特性。 为最受欢迎的功能请求投票。</content></entry><entry><title>世界，你好！</title><url>/post/hello-world.html</url><categories><category>开始建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html"> “使用 weight 关键字置顶文章。”
 Hugo 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。
-快速开始 发表新文章 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 $ hugo 更多信息： Hugo 建站 部署到服务器 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！</content></entry><entry><title>没有H1-6标题头和评论的文章</title><url>/post/no-header-title.html</url><categories><category>示例文章</category></categories><tags><tag>toc</tag><tag>标题</tag></tags><content type="html"> 刘慈欣2018克拉克奖获奖感言（部分内容节选）。
+快速开始 发表新文章 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 $ hugo 更多信息： Hugo 建站 部署到服务器 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！</content></entry><entry><title>Ceceneed</title><url>/post/ceceneed/</url><categories><category><no value=/></categories><tags><tag><no value=/><tag><no value=/></tags><content type="html"> ceceneed</content></entry><entry><title>没有H1-6标题头和评论的文章</title><url>/post/no-header-title.html</url><categories><category>示例文章</category></categories><tags><tag>toc</tag><tag>标题</tag></tags><content type="html"> 刘慈欣2018克拉克奖获奖感言（部分内容节选）。
 用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。
 先生们、女士们，晚上好，
 很荣幸获得Clarke Award for Imagination in Service to Society Award。
@@ -52,6 +52,28 @@ $$ \frac{n!}{k!(n-k)!} = {^n}C_k {n \choose k} $$
 标点符号 $$ f(x) = \sqrt{1+x} \quad (x \ge -1) f(x) \sim x^2 \quad (x\to\infty) $$
 现在用标点符号:
 $$ f(x) = \sqrt{1+x}, \quad x \ge -1 f(x) \sim x^2, \quad x\to\infty $$
+  ]]></content></entry><entry><title>测试测试你的</title><url>/post/custom-files.html</url><categories><category>示例文章</category></categories><tags><tag>自定义</tag><tag>个性化</tag><tag>布局</tag></tags><content type="html"><![CDATA[  np.linspace(start,stop,pointnumber)
+.dtype
+list(&lsquo;abcd&rsquo;)
+series data.name
+#原地排序索引 series.sort_index(inplace=True)
+#创建一个有序的 Series data = {&lsquo;b&rsquo;: 2, &lsquo;a&rsquo;: 1, &lsquo;c&rsquo;: 3} index_order = [&lsquo;a&rsquo;, &lsquo;b&rsquo;, &lsquo;c&rsquo;] series = pd.Series(data, index=index_order)
+sort_values(inplace=True,by=&lsquo;population&rsquo;,ascending=False)
+sort_index
+#创建一个示例 DataFrame data = {&lsquo;A&rsquo;: [1, 2, 3], &lsquo;B&rsquo;: [4, 5, 6]}
+df = pd.DataFrame(data)
+#修改列索引名称 df.rename(columns={&lsquo;A&rsquo;: &lsquo;X&rsquo;, &lsquo;B&rsquo;: &lsquo;Y&rsquo;}, inplace=True)
+#修改行索引名称 df.rename(index={0: &lsquo;row1&rsquo;, 1: &lsquo;row2&rsquo;, 2: &lsquo;row3&rsquo;}, inplace=True)
+# 创建一个示例 DataFrame data = {&lsquo;A&rsquo;: [1, 2, 3], &lsquo;B&rsquo;: [4, 5, 6]}
+df = pd.DataFrame(data)
+#直接分配新的列索引名称 df.columns = [&lsquo;X&rsquo;, &lsquo;Y&rsquo;]
+#直接分配新的行索引名称 df.index = [&lsquo;row1&rsquo;, &lsquo;row2&rsquo;, &lsquo;row3&rsquo;]
+type（） .dtype
+#通过单个series对象创建 pd.DataFrame(population, columns=[&lsquo;population&rsquo;])
+之前创建的series类型population不能有name 否则会出错
+直接用series字典对的形式创建则可以
+pd.DataFrame({&lsquo;population&rsquo;: population})
+is 检查的是对象的身份（内存地址），而 == 检查的是对象的值。在大多数情况下，== 更常用，因为它通常用于比较对象的值是否相等，而不是检查对象是否是同一个对象。但在某些特殊情况下，比如检查对象是否为 None 时，使用 is 更合适，因为 None 在 Python 中是一个单一的对象。
   ]]></content></entry><entry><title>支持用户自定义设计</title><url>/post/custom-files.html</url><categories><category>示例文章</category></categories><tags><tag>自定义</tag><tag>个性化</tag><tag>布局</tag></tags><content type="html"><![CDATA[  对于熟悉前端开发的用户来说，可以通过自定义文件配置，实现对站点的样式和布局进行个性化的调整。其中布局方面主要是支持左侧边栏的站点概览部分，以及站点底部2个位置，但样式的重置可以是整个站点的任意位置。
 打开配置参数 首先要明确在配置文件的 params 区域中有配置如下参数：
 customFilePath: sidebar: custom_sidebar.html footer: custom_footer.html style: /css/custom_style.css 注意： sidebar 和 footer 的文件命名不可以与它们的参数名称相同，不然会影响系统默认的布局设计，切记！！！ &#x1f604; 然后在站点的根目录下创建 layouts/partials 2个目录，用于存放自定布局设计文件，另外在站点根目录下创建 statics/css 2个目录，用于存放自定义 CSS 样式文件。一切就绪后，就可以参考如下的步骤，完成自己的设计想法。
